@@ -1,0 +1,13 @@
+1,"What is a variable?",1,1
+2,"Variable name can include:",1,2
+3,"Is Python case sensitive?",1,1
+4,"Suported data types in Python are:",1,2
+7,"What are basic categories of data types?",1,1
+9,"To use shape from turtle, we need command:",1,2
+10,"Command id() allows:",2,1
+12,"Which of the following sorting algorithms is most efficient?",2,1
+13,"Which of the following statements are true for selection sort?",2,2
+14,"Which of the following statements are true for insertion sort?",2,2
+15,"Is it allowed to use twodimensional arrays in Python?",2,1
+16,"With this command which of the outputs we get \nfor i in range(6):\n  print(i, end=', ')",2,1
+17,"What are basic concepts of OOP?",2,1

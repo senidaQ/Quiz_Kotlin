@@ -1,0 +1,13 @@
+1,"Šta je varijabla?",1,1
+2,"Ime varijable smije sadržavati:",1,1
+3,"Da li Python razlikuje velika i mala slova?",1,1
+4,"Python podržava sljedeće tipove podataka:",1,2
+7,"Koje su osnovne kategorije tipova podataka?",1,1
+9,"Da bi koristili shape iz turtle, treba nam naredba:",1,2
+10,"Naredbom id() je moguće:",2,1
+12,"Koje sortiranje od navedenih je najefikasnije?",2,1
+13,"Koje od sljedežih izjava su tačne za selection sort?",2,2
+14,"Koje od sljedećih izjava su tačne za insertion sort?",2,2
+15,"Da li je u Pythonu moguće koristiti dvodimenzionalne nizove?",2,1
+16,"Sljedećom naredbom dobijamo ispis\nfor i in range(6):\n  print(i, end=', ')",2,1
+17,"Osnovni principi objektno orjentisanog programiranja su",2,1

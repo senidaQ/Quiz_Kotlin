@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_ime">Kviz: Programiranje 1</string>
+    <string name="app_name">Quiz: Programming 1</string>
+    <string name="start">Start</string>
+    <string name="rezultati">Rezultati</string>
+    <string name="results">Results</string>
+    <string name="image_description">An image to fill the blank space.</string>
+    <string name="string_filler">Replace me.</string>
+    <string name="test">Test</string>
+    <string name="rezultat">Procenat:</string>
+    <string name="score">Percentage:</string>
+    <string name="odigrano">Kvizovi:</string>
+    <string name="taken">Quizzes:</string>
+    <string name="tacno">Tačno:</string>
+    <string name="correct">Correct:</string>
+    <string name="netacno">Netačno:</string>
+    <string name="incorrect">Incorrect:</string>
+    <string name="nazad">Glavni Meni</string>
+    <string name="back">Main Menu</string>
+    <string name="empty"/>
+    <string name="current_stat">Your Quiz Score</string>
+    <string name="trenutna_stat">Vaš rezultat</string>
+    <string name="total_stat">Overall Quiz Score</string>
+    <string name="ukupno_stat">Ukupni rezultati</string>
+    <string name="correct_response">Correct!</string>
+    <string name="tacan_odgovor">Tačno!</string>
+    <string name="incorrect_response">Incorrect!</string>
+    <string name="netačan_odgovor">Netačno!</string>
+
+    <string name="level">Level</string>
+    <string name="tezina_kviza">Težina kviza</string>
+    <string name="number_of_questions">Question number</string>
+    <string name="broj_pitanja">Broj pitanja</string>
+
+    <string name="google">google.com</string>
+    <string name = "android">developer.android.com</string>
+
+</resources>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="com.example.programiranje_1.StatisticsActivity">
+
+    <ImageView
+        android:id="@+id/mainView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:contentDescription="@string/image_description"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_land"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/statsTitleView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/total_stat"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/black"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_percent=".75" />
+
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".24" />
+
+    <TableLayout
+        android:id="@+id/statsTable"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/btnMargin"
+        android:stretchColumns="0,1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/statsTitleView"
+        app:layout_constraintWidth_percent=".66">
+
+        <View
+            android:id="@+id/firstHor"
+            android:layout_height="1dp"
+            android:background="@color/grey" />
+
+        <TableRow android:id="@+id/firstRow">
+
+            <TextView
+                android:id="@+id/row1Label"
+                android:padding="3dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                tools:text="@string/taken" />
+
+            <TextView
+                android:id="@+id/row1Result"
+                android:gravity="end"
+                android:padding="3dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                tools:text="1" />
+        </TableRow>
+
+        <View
+            android:layout_height="1dp"
+            android:background="@color/grey" />
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/row3Label"
+                android:padding="3dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                tools:text="@string/correct" />
+
+            <TextView
+                android:id="@+id/row3Result"
+                android:gravity="end"
+                android:padding="3dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                tools:text="4" />
+        </TableRow>
+
+        <View
+            android:layout_height="1dp"
+            android:background="@color/grey" />
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/row4Label"
+                android:padding="3dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                tools:text="@string/incorrect" />
+
+            <TextView
+                android:id="@+id/row4Result"
+                android:gravity="end"
+                android:padding="3dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                tools:text="19" />
+        </TableRow>
+
+        <View
+            android:layout_height="1dp"
+            android:background="@color/grey" />
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/row2Label"
+                android:padding="3dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                tools:text="@string/score" />
+
+            <TextView
+                android:id="@+id/row2Result"
+                android:gravity="end"
+                android:padding="3dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                tools:text="17.4%" />
+        </TableRow>
+
+        <View
+            android:layout_height="1dp"
+            android:background="@color/grey" />
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/row5Label"
+                android:padding="3dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                tools:text="Average Time:" />
+
+            <TextView
+                android:id="@+id/row5Result"
+                android:gravity="end"
+                android:padding="3dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                tools:text="0.4 sec" />
+        </TableRow>
+
+        <View
+            android:layout_height="1dp"
+            android:background="@color/grey" />
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/backToMenuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/btnMargin"
+        android:background="@drawable/button"
+        android:gravity="center"
+        android:text="@string/back"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/statsTable" />
+
+</android.support.constraint.ConstraintLayout>

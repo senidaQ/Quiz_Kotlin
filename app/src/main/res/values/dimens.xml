@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btnDoubleMargin">32dp</dimen>
+    <dimen name="btnMargin">16dp</dimen>
+    <dimen name="btnHalfMargin">8dp</dimen>
+    <dimen name="btnRadius">5dp</dimen>
+    <dimen name="hPadding">18dp</dimen>
+</resources>
